@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/management-patients-pets/static/css/main.506ca484.chunk.css",
-    "main.js": "/management-patients-pets/static/js/main.619dc2c4.chunk.js",
-    "main.js.map": "/management-patients-pets/static/js/main.619dc2c4.chunk.js.map",
+    "main.js": "/management-patients-pets/static/js/main.8c3f814c.chunk.js",
+    "main.js.map": "/management-patients-pets/static/js/main.8c3f814c.chunk.js.map",
     "runtime-main.js": "/management-patients-pets/static/js/runtime-main.831bfb5c.js",
     "runtime-main.js.map": "/management-patients-pets/static/js/runtime-main.831bfb5c.js.map",
     "static/js/2.af810f6c.chunk.js": "/management-patients-pets/static/js/2.af810f6c.chunk.js",
     "static/js/2.af810f6c.chunk.js.map": "/management-patients-pets/static/js/2.af810f6c.chunk.js.map",
     "index.html": "/management-patients-pets/index.html",
-    "precache-manifest.2ebe4c58fca938713fa6ca2840430ebb.js": "/management-patients-pets/precache-manifest.2ebe4c58fca938713fa6ca2840430ebb.js",
+    "precache-manifest.55d58d3d461a34928487b7f8cbb0add4.js": "/management-patients-pets/precache-manifest.55d58d3d461a34928487b7f8cbb0add4.js",
     "service-worker.js": "/management-patients-pets/service-worker.js",
     "static/css/main.506ca484.chunk.css.map": "/management-patients-pets/static/css/main.506ca484.chunk.css.map",
     "static/js/2.af810f6c.chunk.js.LICENSE.txt": "/management-patients-pets/static/js/2.af810f6c.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.831bfb5c.js",
     "static/js/2.af810f6c.chunk.js",
     "static/css/main.506ca484.chunk.css",
-    "static/js/main.619dc2c4.chunk.js"
+    "static/js/main.8c3f814c.chunk.js"
   ]
 }

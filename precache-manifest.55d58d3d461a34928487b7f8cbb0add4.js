@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7238d5ec303bbe907055cadef2123340",
+    "revision": "27c90568c18fbe4ed1154778e1dbd5e3",
     "url": "/management-patients-pets/index.html"
   },
   {
-    "revision": "4816530177d5bf704725",
+    "revision": "0e3ec5bdf573fa65705d",
     "url": "/management-patients-pets/static/css/main.506ca484.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/management-patients-pets/static/js/2.af810f6c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4816530177d5bf704725",
-    "url": "/management-patients-pets/static/js/main.619dc2c4.chunk.js"
+    "revision": "0e3ec5bdf573fa65705d",
+    "url": "/management-patients-pets/static/js/main.8c3f814c.chunk.js"
   },
   {
     "revision": "c0b9d215a1595b74c4af",
