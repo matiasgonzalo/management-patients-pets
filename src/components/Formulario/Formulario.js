@@ -14,7 +14,8 @@ import ValidatedDatePicker, { ValidatedTimePicker } from './ValidatedPicker';
 import {v4 as uuid} from 'uuid';
 import styles from './formulario.module.css';
 
-class Formulario extends React.Component {
+class Formulario extends React.Component 
+{
   state = {
     cita: {
       mascota: '',

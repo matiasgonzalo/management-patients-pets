@@ -8,9 +8,14 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import Image from '../../assets/img/green-tree-python.jpg';
+import Image from '../../assets/img/dog.jpg';
+import PropTypes from 'prop-types';
 
-class CustomModal extends React.Component {
+class CustomModal extends React.Component 
+{
+    static propTypes = {
+        cita: PropTypes.object,
+    }
 
     handleClose = () => {
         this.props.handleClose(false);

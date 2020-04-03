@@ -8,12 +8,17 @@ import DogIcon from '@material-ui/icons/Pets';
 import DeleteIcon from '@material-ui/icons/Delete';
 import IconButton from '@material-ui/core/IconButton';
 import styles from './cita.module.css';
+import PropTypes from 'prop-types';
 
-class Cita extends React.Component {
+class Cita extends React.Component 
+{
+    static propTypes = {
+        cita: PropTypes.object,
+    }
 
     handleOpen = () => {
         this.props.handleOpen(this.props.cita);
-    };
+    };    
 
     render() {
         const { cita, deleteCita } = this.props;

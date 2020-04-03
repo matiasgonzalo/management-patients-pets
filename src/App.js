@@ -11,7 +11,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 
-class App extends React.Component{
+class App extends React.Component
+{
 
   state = {
       citas: [],
@@ -20,7 +21,28 @@ class App extends React.Component{
       open: false,
   }
   
-  componentDidMount(){
+  componentDidMount() {
+    let citasIniciales = JSON.parse(localStorage.getItem('citas'));
+    if(!citasIniciales) {
+      citasIniciales = [];
+      this.setState(() => {
+        return {
+          citas: citasIniciales
+        }
+      })
+    }else{
+      citasIniciales.map(cita => {
+        cita.fecha = new Date(cita.fecha);
+        cita.hora = new Date(cita.hora);
+        return cita;
+      });
+      this.setState(() => {
+        return {
+          citas: citasIniciales
+        }
+      })
+    }
+    
     if(this.state.citas.length === 0 ){
       this.setState(() => {
         return {
@@ -34,6 +56,10 @@ class App extends React.Component{
         }
       })
     }
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem('citas', JSON.stringify(this.state.citas));
   }
 
   createCita = cita => {
@@ -91,11 +117,6 @@ class App extends React.Component{
   render() {
     return (
       <Fragment>
-        {/* <Grid item xs={12}>
-          <Paper className={styles.header} elevation={3}>
-            <Typography component="h1" className={styles.title} variant="h5">Administrador de pacientes caninos</Typography>
-          </Paper>
-        </Grid> */}
         <AppBar position="relative" className={styles.header}>
           <Toolbar>
             <IconButton
@@ -105,7 +126,7 @@ class App extends React.Component{
             >  
             </IconButton>
             <Typography variant="h6" noWrap>
-              Administrador de pacientes caninos
+              Administrador de pacientes mascotas
             </Typography>
           </Toolbar>
         </AppBar>
