@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/management-patients-pets/static/css/main.506ca484.chunk.css",
-    "main.js": "/management-patients-pets/static/js/main.8c3f814c.chunk.js",
-    "main.js.map": "/management-patients-pets/static/js/main.8c3f814c.chunk.js.map",
+    "main.js": "/management-patients-pets/static/js/main.efa1e6be.chunk.js",
+    "main.js.map": "/management-patients-pets/static/js/main.efa1e6be.chunk.js.map",
     "runtime-main.js": "/management-patients-pets/static/js/runtime-main.831bfb5c.js",
     "runtime-main.js.map": "/management-patients-pets/static/js/runtime-main.831bfb5c.js.map",
     "static/js/2.af810f6c.chunk.js": "/management-patients-pets/static/js/2.af810f6c.chunk.js",
     "static/js/2.af810f6c.chunk.js.map": "/management-patients-pets/static/js/2.af810f6c.chunk.js.map",
     "index.html": "/management-patients-pets/index.html",
-    "precache-manifest.55d58d3d461a34928487b7f8cbb0add4.js": "/management-patients-pets/precache-manifest.55d58d3d461a34928487b7f8cbb0add4.js",
+    "precache-manifest.a406398e455c1273f16b0370d53b1d1f.js": "/management-patients-pets/precache-manifest.a406398e455c1273f16b0370d53b1d1f.js",
     "service-worker.js": "/management-patients-pets/service-worker.js",
     "static/css/main.506ca484.chunk.css.map": "/management-patients-pets/static/css/main.506ca484.chunk.css.map",
     "static/js/2.af810f6c.chunk.js.LICENSE.txt": "/management-patients-pets/static/js/2.af810f6c.chunk.js.LICENSE.txt",
-    "static/media/green-tree-python.jpg": "/management-patients-pets/static/media/green-tree-python.f19f932f.jpg"
+    "static/media/dog.jpg": "/management-patients-pets/static/media/dog.2ceac30f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.831bfb5c.js",
     "static/js/2.af810f6c.chunk.js",
     "static/css/main.506ca484.chunk.css",
-    "static/js/main.8c3f814c.chunk.js"
+    "static/js/main.efa1e6be.chunk.js"
   ]
 }

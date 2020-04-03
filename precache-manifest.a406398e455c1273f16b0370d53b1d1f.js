@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27c90568c18fbe4ed1154778e1dbd5e3",
+    "revision": "fd5a644305d869f26cc914647acd7ee2",
     "url": "/management-patients-pets/index.html"
   },
   {
-    "revision": "0e3ec5bdf573fa65705d",
+    "revision": "3ed9ddf792087da657d1",
     "url": "/management-patients-pets/static/css/main.506ca484.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/management-patients-pets/static/js/2.af810f6c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e3ec5bdf573fa65705d",
-    "url": "/management-patients-pets/static/js/main.8c3f814c.chunk.js"
+    "revision": "3ed9ddf792087da657d1",
+    "url": "/management-patients-pets/static/js/main.efa1e6be.chunk.js"
   },
   {
     "revision": "c0b9d215a1595b74c4af",
     "url": "/management-patients-pets/static/js/runtime-main.831bfb5c.js"
   },
   {
-    "revision": "f19f932f736d49976e00cf944887f112",
-    "url": "/management-patients-pets/static/media/green-tree-python.f19f932f.jpg"
+    "revision": "2ceac30fcac43f54d047c366c8675770",
+    "url": "/management-patients-pets/static/media/dog.2ceac30f.jpg"
   }
 ]);
